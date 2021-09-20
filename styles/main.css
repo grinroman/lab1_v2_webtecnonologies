@@ -71,6 +71,8 @@ header {
     overflow-x: hidden;
   }
 
+
+
   .menu {
     position: fixed;
     padding: 10px 10px;
@@ -127,7 +129,7 @@ header {
   .about-firm {
     background-color: #f5a75f;
     padding-top: 45px;
-    height: 70vh;
+    height: 55vh;
     padding: 5px;
   }
 
@@ -149,11 +151,41 @@ header {
     text-align: justify;
   }
 
+  .footer-common{
+    width: 34.2vw;
+    height: 14vh;
+    background-color:white;
+    margin-top: 38%;
+    margin-left:13%;
+    border-radius:7px;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #f5a75f;
+    justify-content: left;
+    padding: 1vh;
+    align-items:center
+
+  }
+
+  
+
+  .special-text{
+    background-color:#f8963b;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    text-align: left;
+    border-radius:5px;
+    margin-top: 10px;
+  }
+
   .picture-main{
     position: absolute;
     width: 450px;
     margin-left: 950px;
-    margin-top: 150px;
+    margin-top: 130px;
    
   }
 
@@ -195,23 +227,7 @@ header {
     position: relative;
     width: 100px;
   }
-  
-  .dt-dotted > span {
-    position: relative;
-  }
-      
-  .dt-dotted > span:after {
-    color: #000;
-    content: '...........................................';
-    left: 100%;
-    position: absolute;
-    top: 0;
-  }
-  
-  dd {
-    margin-left: 0;
-    position: relative;
-  }
+ 
   
   .dl-inline > dt {
     clear: left;
@@ -219,7 +235,3 @@ header {
     margin-right: 3px;
   }
     
-  .dl-inline > dd {
-    display: inline-block;
-    margin-left: 0;
-  }
